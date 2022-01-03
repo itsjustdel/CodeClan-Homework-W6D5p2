@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Greatest Muay Thai Fighters</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+  <script src="js/app.js"></script>
+</head>
+<body>
+  <div class="center-contents">
+    <h1>Greatest Muay Thai Fighters</h1>
+    <form>
+      <div class="form-element">
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+      </div>
+
+      <div class="form-element">
+        <label for="style">Style</label>
+        <input type="text" id="style" />
+      </div>
+
+      <div class="form-element">
+        <legend>Region</legend>
+        <fieldset>
+          <label for="north">North</label>
+          <input type="radio" name="region" id="north" value="North"/>
+
+          <label for="central">Central</label>
+          <input type="radio" name="region" id="central" value="Central"/>
+
+          <label for="isan">Isan</label>
+          <input type="radio" name="region" id="isan" value="Isan"/>
+
+          <label for="south">South</label>
+          <input type="radio" name="region" id="south" value="South"/>          
+        </fieldset>
+      </div>
+
+      <div class="form-element">
+        <input type="submit" value="Add to List" />        
+      </div>
+    </form>
+
+    <ul id="list">
+    </ul>
+  </div>
+</body>
+</html>
